@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,400;1,400;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ul,
+li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+div.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4d4d4d;
+}
+
+div.container .box {
+    width: 700px;
+    height: 400px;
+   border-radius: 5px;
+}
+.one{
+    background-color: white;
+    border-radius: 3px;
+    border: 6px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    position: relative;
+    
+}
+
+div.container .box .img img {
+    width: 249px;
+}
+
+.text {
+    flex-direction: column;
+    overflow-x: hidden;
+    height: 330px;
+    color: rgb(6, 6, 103);
+}
+
+
+.Email {
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 450px;
+    width: 205px;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 17px;
+    margin-right: 94px;
+}
+
+.btn {
+    background-color:  rgb(3, 3, 56);
+    width: 205px;
+    margin-right: 94px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+p.btn {
+    color: white;
+    font-size: 10px;
+}
+
+.A {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 89px;
+
+}
+
+.text .G {
+    margin-right: -23px;
+}
+
+.text .B {
+    margin-right: 4px;
+}
+
+.text .C {
+    margin-right: 20px;
+}
+
+.text .D {
+    margin-right: 180px;
+}
+.text .S{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction:row;
+   margin-left: -70px; */
+   margin-left: -91px;
+   overflow-x: hidden;
+}
+.S .Z{
+    margin-left: -158px;
+}
+.text .J {
+    font-size: 13px;
+    margin-right: 218px;
+}
+ @media (max-width:580px){
+    div.container .box {
+        width: 700px;
+        height: 8000px;
+       border-radius: 5px;
+       border-radius: none;
+    }
+    div.container .one {
+       
+        flex-direction: column-reverse;
+       
+    }
+    .text {
+        flex-direction: column;
+        overflow-x: hidden;
+        height: 775px;
+        color: rgb(6, 6, 103);
+    }
+    div.container .box .img img {
+        width: 307px;
+    }
+    .btn {
+        background-color:  rgb(3, 3, 56);
+        border-radius: 4px;
+        height: 499px;
+        width: 300px;
+        border-width: 1px;
+        border-style: solid;
+        border: none;
+        margin-right:-2px;
+        margin-bottom: 10px;
+    }
+    .Email {
+        background-color: #ffffff;
+        border-radius: 4px;
+        height: 450px;
+        width: 300px;
+        border-width: 1px;
+        border-style: solid;
+        margin-bottom:13px;
+        margin-right:-2px;
+    }
+} 
